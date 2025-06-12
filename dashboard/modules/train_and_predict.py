@@ -10,7 +10,7 @@ def show_train_and_predict():
     st.title("Model Training and Prediction")
 
     # Load data
-    data_path = "../data/featured/feature_climate.csv"
+    data_path = "data/featured/feature_climate.csv"
     try:
         df = pd.read_csv(data_path)
     except FileNotFoundError:
